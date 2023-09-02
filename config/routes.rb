@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # get 'reviews/create'
   # get 'reviews/update'
   # get 'reviews/delete'
-  get '/movies', to: 'movies#index'  # get 'movies/show'
+  get '/', to: 'movies#index'  # get 'movies/show'
   # get 'movies/create'
   # get 'movies/update'
   # get 'movies/delete'
